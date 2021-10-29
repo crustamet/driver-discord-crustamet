@@ -1,0 +1,12 @@
+{
+    "require": {
+        "team-reflex/discord-php": "6.0",
+        "botman/botman": "^2.6",
+        "php": "^7.4"
+    },
+	"autoload": {
+        "psr-4": {
+            "BotMan\\Drivers\\Discord\\": "src/"
+        }
+    }
+}
